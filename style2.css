@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(19, 23, 81);
+    color: rgb(37, 202, 155);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  .fr {
+    border-radius: 5px ;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border:2px solid black ;
+  }
+  .hea{
+      background-color: rgb(106, 107, 109);
+      color: rgb(0, 0, 0);
+  }
